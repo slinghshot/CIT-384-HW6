@@ -1,31 +1,63 @@
 /* Color Palette
 https://colorhunt.co/palette/222831393e4600adb5eeeeee
-#222831 - color 1
-#393E46 - color 2
-#00ADB5 - color 3
-#EEEEEE - color 4
+#2C3639 - color 1
+#3F4E4F - color 2
+#A27B5C - color 3
+#DCD7C9 - color 4
 */
 
 /* Global styles 
 ------------------------------------*/
-body {
-  /* background: #4e6e81; */
-  color: #222831;
+/* body {
+  /* background: #4e6e81; 
+} */
+#myImage {
+  border-radius: 80%;
+  width: 12%;
 }
-
+h1,
+h2,
+h3 {
+  font-family: "Cairo Play", cursive;
+}
+h1 {
+  font-size: 5em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+p,
+li {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 1.3em;
+}
 /* Header & Footer 
 ------------------------------------*/
 header,
 footer {
-  background-color: #393e46;
-  color: #eeeeee;
+  background-color: #3f4e4f;
+  color: #dcd7c9;
+}
+
+footer div a {
+  color: rgb(203, 199, 243);
+}
+footer div a:hover {
+  color: #a27b5c;
 }
 
 /* Work Experience
 ------------------------------------*/
-main {
-  background-color: #00adb5;
+#WorkExperience {
+  background-color: #dcd7c9;
 }
 
 /* Education
 ------------------------------------*/
+#Education {
+  background-color: #a27b5c;
+  color: #2c3639;
+}
