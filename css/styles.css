@@ -18,16 +18,21 @@ https://colorhunt.co/palette/222831393e4600adb5eeeeee
 h1,
 h2,
 h3 {
-  font-family: "Cairo Play", cursive;
+  font-family: "Cairo Play", semi;
+  margin: 0;
+  font-weight: 600;
 }
 h1 {
   font-size: 5em;
+  /* border: solid 2px; */
 }
 h2 {
   font-size: 2.5em;
+  /* border: solid 2px; */
 }
 h3 {
   font-size: 2em;
+  font-weight: 500;
 }
 p,
 li {
@@ -44,6 +49,7 @@ footer {
 
 footer div a {
   color: rgb(203, 199, 243);
+  font-size: 1.3em;
 }
 footer div a:hover {
   color: #a27b5c;
